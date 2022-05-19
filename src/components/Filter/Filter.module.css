@@ -1,0 +1,14 @@
+.input{
+    
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        font-size: 30px;
+        width: 500px;
+        display: block;
+}
+.label {
+    color: green;
+    margin: 20px;
+    font-size: 30px;
+}
