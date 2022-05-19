@@ -14,7 +14,8 @@ export function App() {
     );
     if (contactsFromLocalStorrage) {
      return contactsFromLocalStorrage;
-    }
+    };
+    return [];
   };  
   useEffect(() => {
     localStorage.setItem('contacts', JSON.stringify(contacts));
